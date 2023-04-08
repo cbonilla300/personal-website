@@ -39,7 +39,7 @@ header {
     left: 0;
     right: 0;
     padding: 0.5em 1em red;
-    box-shadow: 0px 200px 200px 0px red ;
+    box-shadow: 0px 200px 200px 20px red ;
     ;
 }
 h1 {
@@ -51,7 +51,7 @@ h1 {
 
 img {
     margin-top: 150px;
-    margin-left: 690px;
+    margin-left: 540px;
     
 }
 
@@ -84,6 +84,7 @@ img {
 
 #about  {
     /* display: block; */
+   
 }
 
 #about p {
@@ -102,7 +103,7 @@ img {
 }
 
 #about header {
-    box-shadow: 0px 200px 200px 20px red;
+    box-shadow: 0px 200px 200px 15px red;
 }
 
 #about .workout {
@@ -113,8 +114,14 @@ img {
    
 }
 
+#portfolio {
+    margin-top: 100px;
+}
+
 #portfolio nav {
     float: right;
+    
+    
     
 }
 
@@ -146,10 +153,19 @@ img {
 #contact, span {
    float: left;
    font-size: 30px;
+   
 }
 
-#contact, nav, span {
+#contact, nav, {
     float: right;
-    font-size: 30px;
-    box-shadow: 10px 10px 10px 10px red;
+    font-size: 40px;   
+}
+
+footer {
+    display: block;
+    
+}
+.media {
+    display: inline-block;
+    width: 40px;
 }
