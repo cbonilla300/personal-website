@@ -157,15 +157,16 @@ img {
 }
 
 #contact, nav, {
-    float: right;
-    font-size: 40px;   
+   float: right;
+   font-size: 40px;   
 }
 
 footer {
-    display: block;
+    
     
 }
 .media {
-    display: inline-block;
+    display: flex;
+    justify-content: inherit;
     width: 40px;
 }
