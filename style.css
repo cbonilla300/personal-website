@@ -145,7 +145,7 @@ img {
 
 #contact {
     background-color: black;
-    display: inline-block;
+    display: flex;
     box-shadow: 0px 200px 200px 20px red;
     
 }
@@ -161,12 +161,19 @@ img {
    font-size: 40px;   
 }
 
+#contact form {
+    display: block;
+}
+
 footer {
-    
-    
+    display: flex;
+    justify-content: left;
 }
 .media {
     display: flex;
-    justify-content: inherit;
-    width: 40px;
+    justify-content: space-between;
+    width: 50px;
+    margin: 0 auto;
+
 }
+
